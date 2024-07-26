@@ -22,6 +22,6 @@ scenario 3 -- roll back commit
 git reset 946d79b
 
 
-branch
-git branch featureA
-git checkout featureA
+git branch
+git branch branchName
+git checkout branchName
