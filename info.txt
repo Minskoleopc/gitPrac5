@@ -6,3 +6,5 @@ git remote add origin https://github.com/Minskoleopc/gitPrac5.git
 git push -u origin main
 
 git status
+git add .
+git commit -m "added"
