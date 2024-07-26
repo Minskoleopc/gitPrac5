@@ -8,3 +8,20 @@ git push -u origin main
 git status
 git add .
 git commit -m "added"
+
+git log
+git show HEAD
+
+scenario -- make working as last commit 
+git checkout HEAD filename
+
+scenario2 -- make staging as last commit
+git reset HEAD filename
+
+scenario 3 -- roll back commit
+git reset 946d79b
+
+
+branch
+git branch featureA
+git checkout featureA
