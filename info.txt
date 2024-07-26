@@ -25,3 +25,10 @@ git reset 946d79b
 git branch
 git branch branchName
 git checkout branchName
+
+git branch -D featureB
+git branch -D featureA
+
+
+git pull origin main 
+git push origin featureB
