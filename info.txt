@@ -18,8 +18,10 @@ git checkout HEAD filename
 scenario2 -- make staging as last commit
 git reset HEAD filename
 
-scenario3
+scenario 3 -- roll back commit
 git reset 946d79b
 
-scenario 3 -- roll back commit
 
+branch
+git branch featureA
+git checkout featureA
